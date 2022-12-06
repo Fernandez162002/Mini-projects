@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter';
+}
+
+main{
+    margin-bottom: 36px;
+    position: relative;
+}
+
+header{
+    background-color: #F55A5A;
+    width: 550px;
+    height: 55px;
+    position: relative;
+}
+
+header > h3{
+    position: absolute;
+    left: 220px;
+    top: 20px;
+    font-weight: 400;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #ffffff;
+    
+}
+
+.main--pic{
+    width: 125px;
+    height: 168px;
+    float: left;
+    border-radius: 5px;
+    margin-right: 19px;
+}
+
+.location--pic{
+     width: 10px;
+    height: 9.55px;
+    
+
+}
+
+.card-list{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+}
+
+.first--line{
+    display: flex;
+    flex-direction: row;
+}
+
+.country--name{
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 8px;
+    letter-spacing: 0.17em;
+    margin-left:5px; 
+  
+}
+
+main > h2{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 8px;
+    margin-bottom: 0;
+    
+}
+
+.date--text{
+    display: flex;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.para--text{
+    width: 326px;
+    height: 45px;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    margin-top: 10px;
+}
+
+hr{
+    position: absolute;
+    top: 185px;
+    width: 478px;
+    border: 1px solid #F5F5F5;
+
+}
+ 
